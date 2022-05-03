@@ -2,7 +2,7 @@ Feature: First test in cumcumber
 
         Scenario: visit the website and get the header
 
-        Given visit the website <url>
+        Given visit the websites <url>
         Then get the text of <header>
 
         Examples:

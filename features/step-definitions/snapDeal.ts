@@ -1,6 +1,6 @@
 import { Given, Then } from '@wdio/cucumber-framework'
 
-Given(/^visit the website (.+)$/, async (url) => {
+Given(/^visit the websites (.+)$/, async (url) => {
     await browser.url(url);
     await browser.maximizeWindow();
 });
